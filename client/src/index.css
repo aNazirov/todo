@@ -1,0 +1,24 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+.MuiPagination-root{
+  background: none !important;
+  box-shadow: none !important;
+}
+.MuiPagination-ul{
+  justify-content: center;
+}
+.MuiPaginationItem-textPrimary.Mui-selected{
+  background: #4db6ac !important;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

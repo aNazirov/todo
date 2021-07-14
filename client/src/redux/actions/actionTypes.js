@@ -1,0 +1,9 @@
+export const LOGIN = "LOGIN_SUCCESS"
+export const LOGOUT = "LOGOUT"
+
+export const START_LOADING = 'START_LOADING'
+export const GET_TODOS_SUCCESS = 'GET_TODOS_SUCCESS'
+export const GET_TODOS_ERROR = 'GET_TODOS_ERROR'
+export const CREATE_TODO_SUCCESS = 'CREATE_TODO_SUCCESS'
+export const EDIT_TODO_SUCCESS = 'EDIT_TODO_SUCCESS'
+export const SET_TODO = 'SET_TODO'
