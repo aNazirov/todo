@@ -5,16 +5,4 @@ const instance = axios.create({
     contentType: "multipart/form-data"
 })
 
-// instance.interceptors.response.use((response) => {
-//     return response
-// }, async function (error) {
-//     if (error.response.status === 401) {
-//         console.log('Token просрочен')
-//         alert('Token просрочен')
-//         return
-//     }
-//     return Promise.reject(error)
-// });
-
-
 export default instance
