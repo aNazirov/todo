@@ -25,7 +25,6 @@ export function login(user) {
 
 export function logout() {
     localStorage.removeItem('auth-token')
-    localStorage.removeItem('expiresIn')
     return {
         type: LOGOUT
     }
